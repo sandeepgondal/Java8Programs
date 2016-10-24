@@ -1,7 +1,13 @@
-package PACKAGE_NAME;
+package com.sandy.java8;
 
-/**
- * Created by gondals on 24/10/16.
- */
+import org.junit.Test;
+
 public class DefaultMethodsImplTest {
+
+    @Test
+    public void shouldBeAbleToInvokeDefaultNonDefaultMethods() throws Exception {
+        DefaultMethods defaultMethods = new DefaultMethodsImpl();
+        defaultMethods.defaultMethod();
+        defaultMethods.nonDefaultMethod();
+    }
 }

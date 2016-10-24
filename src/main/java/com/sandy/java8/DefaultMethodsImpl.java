@@ -1,7 +1,9 @@
 package com.sandy.java8;
 
-/**
- * Created by gondals on 24/10/16.
- */
-public class DefaultMethodsImpl {
+public class DefaultMethodsImpl implements DefaultMethods {
+
+    @Override
+    public void nonDefaultMethod() {
+        System.out.println("Withing non default method");
+    }
 }
