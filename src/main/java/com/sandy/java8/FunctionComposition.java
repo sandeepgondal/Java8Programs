@@ -4,7 +4,7 @@ package com.sandy.java8;
 import java.util.Arrays;
 import java.util.List;
 
-// You have chaining or pipelining of functions
+// You have chaining or pipelines of functions
 public class FunctionComposition {
 
     public static void main(String[] args) {
